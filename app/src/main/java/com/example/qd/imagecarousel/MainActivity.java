@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setImage() {
+        //urlList为图片列表。
         imageSeller.setImageResources(urlList, new ImageCycleViewAppAdsFindSellerNew.ImageCycleViewListener() {
             @Override
             public void displayImage(String imageURL, final ImageView imageView) {
